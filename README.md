@@ -6,7 +6,7 @@ Tier 2 Model:
 I chose this project because I am interested in robotics and in integrating artificial intelligence into robotics. Building an emotion recognition model allows me to explore the human-machine connection. Having natural interaction and adaptive robots that teach machines to understand human emotion is essential.
 
 Problem Statement:
-In real world application machines can recognize objects and faces but fail to understand human emotions. This lack of facial emotional awareness limits how technology interacts with human beings (e.g., learning platforms cannot sense confusion, and customer service systems cannot detect frustration).
+In real world application machines can recognize objects and faces but fail to understand human emotions. This lack of facial emotional awareness limits how technology interacts with human beings, for example, learning platforms cannot sense confusion, and customer service systems cannot detect frustration.
 
 Solution Overview:
 This project uses a YOLO based emotion recognition model trained on a Kaggle facial expression dataset and accelerated with GPU processing to classify emotions. The model can be applied in areas like customer sentiment analysis and human AI interaction, where understanding human emotions helps machines respond naturally and accurately.
@@ -49,5 +49,6 @@ Risk & Mitigation:
 3.| GPU runtime timeout                              | High                             | Save checkpoints to google drive
 4.| Incorrect emotion labeling                       | Medium                           | Use a diverse dataset
 5.| Slow training/ inference speed                   | Low                              | Use YOLOv11s
+
 
 
