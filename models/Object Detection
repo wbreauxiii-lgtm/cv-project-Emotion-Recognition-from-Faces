@@ -1,0 +1,13 @@
+#Models Used
+
+-- YOLOv11s
+* Pretrained: YOLOv11s (`yolo11s.pt`)
+* Fine-tuned for 8 emotion classes on AffectNet YOLO-format dataset
+* Input size: 640x640
+* Epochs: 100
+* Optimizer: AdamW (default Ultralytics)
+* Output: Bounding boxes + emotion labels per face
+
+-- Notes
+* Validation performed automatically each epoch.
+* Final weights saved as `runs/detect/train/weights/best.pt`.
