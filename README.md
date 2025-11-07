@@ -37,10 +37,10 @@ Week 13: Demo Creation
 Week 14: Final Polish
 Week 15: Final Presentation Day
 
-Resources Needed:
-Compute: Google Colab Pro NVIDIA A100 GPU (switched from T4 GPU)/ Kaggle
-Cost: $0
-APIs: No paid APIs
+##Resources Needed:
+- **Compute: Google Colab Pro NVIDIA A100 GPU (switched from T4 GPU)/ Kaggle
+- **Cost: $0
+- **APIs: No paid APIs
 ## Environment and Hardware
 
 - **Platform:** Google Colab  
@@ -57,6 +57,7 @@ Risk & Mitigation:
 3.| GPU runtime timeout                              | High                             | Save checkpoints to google drive
 4.| Incorrect emotion labeling                       | Medium                           | Use a diverse dataset
 5.| Slow training/ inference speed                   | Low                              | Use YOLOv11s
+
 
 
 
