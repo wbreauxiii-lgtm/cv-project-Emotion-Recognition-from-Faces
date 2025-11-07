@@ -34,7 +34,7 @@
 - **Model:** YOLOv11 Small (Ultralytics)  
 - **Frameworks:** PyTorch, Ultralytics, OpenCV (on Kaggle/Colab)  
 - The YOLOv11 architecture supports both detection and classification.  
-- The small variant, YOLOv11s, is fast and lightweight — ideal for real-time emotion recognition.  
+- The small variant, YOLOv11s, is fast and lightweight, ideal for real-time emotion recognition.  
 - Using Kaggle and Colab notebooks provides dataset access and GPU acceleration for efficient training.  
 
 ---
@@ -98,3 +98,4 @@
 
 - **Risk 5: Runtime or dependency mismatch**  
   - *Mitigation:* Freeze library versions in `requirements.txt` and document environment setup in README for reproducibility.
+
