@@ -41,6 +41,13 @@ Resources Needed:
 Compute: Google Colab Pro NVIDIA A100 GPU (switched from T4 GPU)/ Kaggle
 Cost: $0
 APIs: No paid APIs
+## Environment and Hardware
+
+- **Platform:** Google Colab  
+- **Hardware Accelerator:** NVIDIA A100 GPU (switched from T4 GPU)  
+- **CUDA Version:** 12.4  
+- **Frameworks:** PyTorch 2.8.0, Ultralytics 8.3.225  
+- **Dataset Source:** fatihkgg/affectnet-yolo-format (YOLO detection, 8 classes)
 
 Risk & Mitigation:
   |**RISK**                                          |**PROBABILITY**                   |**MITIGATION**
@@ -50,6 +57,7 @@ Risk & Mitigation:
 3.| GPU runtime timeout                              | High                             | Save checkpoints to google drive
 4.| Incorrect emotion labeling                       | Medium                           | Use a diverse dataset
 5.| Slow training/ inference speed                   | Low                              | Use YOLOv11s
+
 
 
 
