@@ -12,6 +12,7 @@ Solution Overview:
 This project uses a YOLO based emotion recognition model trained on a Kaggle facial expression dataset and accelerated with GPU processing to classify emotions. The model can be applied in areas like customer sentiment analysis and human AI interaction, where understanding human emotions helps machines respond naturally and accurately.
 
 Technical Approach:
+
 CV Technique: Object Detection/ Classification
 Model: YOLOv11 Small (Ultralytics)
 Framework: Kaggle Networks with PyTorch, Ultralytics, OpenCV
@@ -49,6 +50,7 @@ Risk & Mitigation:
 3.| GPU runtime timeout                              | High                             | Save checkpoints to google drive
 4.| Incorrect emotion labeling                       | Medium                           | Use a diverse dataset
 5.| Slow training/ inference speed                   | Low                              | Use YOLOv11s
+
 
 
 
