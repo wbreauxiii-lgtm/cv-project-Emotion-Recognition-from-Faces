@@ -1,0 +1,17 @@
+Initial Results
+
+Date: Thu Nov 6, 2025  
+Environment: Google Colab (Tesla T4, CUDA 12.4)  
+Dataset: fatihkgg/affectnet-yolo-format (YOLO detection, 8 classes)
+
+Summary
+- Pretrained YOLOv11s model (`yolo11s.pt`) successfully loaded.
+- Verified GPU availability and CUDA support (`torch.cuda.is_available()` → True).
+- Dataset structure confirmed with 17,101 training, 5,406 validation, and 2,755 test images.
+- Ran sample inference on default YOLO test images to verify the model loads and runs.
+- Model successfully detected objects (bus, person) and produced output images.
+
+Notes
+- Training process has started but not yet completed. Timestamp: 6:02pm
+- No custom predictions or emotion detections have been generated yet.
+- Next step: complete training and generate validation/test results.
