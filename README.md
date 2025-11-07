@@ -85,7 +85,7 @@
 ## Risks and Mitigation  
 
 - **Risk 1: Training interruption or GPU timeout**  
-  - *Mitigation:* Use Google Colab Pro with A100 GPU and save checkpoints to Google Drive after every 10 epochs using `save_period=10`.
+  - *Mitigation:* Use Google Colab Pro with A100 GPU and save checkpoints to Google Drive after every 10 epochs using save_period=10.
 
 - **Risk 2: Dataset size and limited compute time**  
   - *Mitigation:* Train on smaller image batches or subsets of AffectNet to verify performance before full-scale runs.
@@ -97,5 +97,6 @@
   - *Mitigation:* Tune learning rate, increase epochs, and test alternate YOLO variants (e.g., YOLOv11m or YOLOv11n).
 
 - **Risk 5: Runtime or dependency mismatch**  
-  - *Mitigation:* Freeze library versions in `requirements.txt` and document environment setup in README for reproducibility.
+  - *Mitigation:* Freeze library versions in requirements.txt and document environment setup in README for reproducibility.
+
 
