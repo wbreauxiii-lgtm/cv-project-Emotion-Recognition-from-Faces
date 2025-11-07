@@ -81,3 +81,20 @@
 - **CUDA Version:** 12.4  
 - **Frameworks:** PyTorch 2.8.0, Ultralytics 8.3.225  
 - **Dataset Source:** fatihkgg/affectnet-yolo-format (YOLO detection, 8 classes)  
+
+## Risks and Mitigation  
+
+- **Risk 1: Training interruption or GPU timeout**  
+  - *Mitigation:* Use Google Colab Pro with A100 GPU and save checkpoints to Google Drive after every 10 epochs using `save_period=10`.
+
+- **Risk 2: Dataset size and limited compute time**  
+  - *Mitigation:* Train on smaller image batches or subsets of AffectNet to verify performance before full-scale runs.
+
+- **Risk 3: Model overfitting on limited facial variations**  
+  - *Mitigation:* Apply data augmentation (blur, rotation, flip) and monitor validation accuracy to prevent overfitting.
+
+- **Risk 4: Low detection accuracy across all emotions**  
+  - *Mitigation:* Tune learning rate, increase epochs, and test alternate YOLO variants (e.g., YOLOv11m or YOLOv11n).
+
+- **Risk 5: Runtime or dependency mismatch**  
+  - *Mitigation:* Freeze library versions in `requirements.txt` and document environment setup in README for reproducibility.
