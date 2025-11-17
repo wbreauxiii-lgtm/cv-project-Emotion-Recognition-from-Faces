@@ -99,4 +99,40 @@
 - **Risk 5: Runtime or dependency mismatch**  
   - *Mitigation:* Freeze library versions in requirements.txt and document environment setup in README for reproducibility.
 
+## 📈 Model Results (Week 12)
+
+After 100 epochs of training on the A100 GPU:
+
+| Metric | Score |
+|--------|-------|
+| Precision (P) | 0.757 |
+| Recall (R) | 0.773 |
+| mAP@50 | 0.849 |
+| mAP@50-95 | 0.849 |
+
+| Class | mAP@50 |
+|------|--------|
+| Anger | 0.851 |
+| Contempt | 0.864 |
+| Disgust | 0.837 |
+| Fear | 0.866 |
+| Happy | 0.961 |
+| Neutral | 0.752 |
+| Sad | 0.798 |
+| Surprise | 0.865 |
+
+**Saved Artifacts**  
+- `best.pt` → `/models/`
+- `confusion_matrix.png` → `/results/`
+- `results.png` → `/results/`
+
+**Failure Case Notes**  
+- Neutral faces are often misclassified as Sad or Contempt  
+- Dim/low-contrast images reduce prediction accuracy  
+- Occlusions (hands on face) can cause incorrect detection
+
+**Improvement Made**  
+- Switched training hardware from T4 → A100 GPU for faster convergence and higher mAP
+
+
 
