@@ -121,18 +121,19 @@ After 100 epochs of training on the A100 GPU:
 | Sad | 0.798 |
 | Surprise | 0.865 |
 
-**Saved Artifacts**  
-- `best.pt` → `/models/`
-- `confusion_matrix.png` → `/results/`
-- `results.png` → `/results/`
+##Saved Artifacts  
+- /models/best.py
+- /results/confusion_matrix.png
+- /results/results.png
 
-**Failure Case Notes**  
+##Failure Case Notes  
 - Neutral faces are often misclassified as Sad or Contempt  
 - Dim/low-contrast images reduce prediction accuracy  
 - Occlusions (hands on face) can cause incorrect detection
 
-**Improvement Made**  
+##Improvement Made  
 - Switched training hardware from T4 → A100 GPU for faster convergence and higher mAP
+
 
 
 
