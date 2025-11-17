@@ -132,7 +132,8 @@ After 100 epochs of training on the A100 GPU:
 - Occlusions (hands on face) can cause incorrect detection
 
 ##Improvement Made  
-- Switched training hardware from T4 → A100 GPU for faster convergence and higher mAP
+- Switched training hardware from T4 to A100 GPU for faster convergence and higher mAP
+
 
 
 
