@@ -3,3 +3,5 @@
 10/29/2025: Used ChatGPT to generate images for power point.
 
 11/06/2025: Used ChatGPT to format and structure my initial results. As well as using it to debug a path issue I was having.
+
+11/17/2025: ChatGPT helped me debug 04_demo.ipynb.
