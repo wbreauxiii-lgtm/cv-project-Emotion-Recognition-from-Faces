@@ -4,7 +4,7 @@
 
 10/29/2025
 
-Used ChatGPT to help rephrase parts of my project proposal to sound clearer and more professional.
+- Used ChatGPT to help rephrase parts of my project proposal to sound clearer and more professional.
 
 Used ChatGPT’s image generation tool to create a robot illustration for my midterm PowerPoint slides.
 
@@ -35,6 +35,7 @@ Used ChatGPT to help outline and organize my demo script (introduction → model
 Used ChatGPT to clarify how to explain my technical process in simple, clear language without changing the work I personally completed.
 
 Used ElevenLabs (AI voice) to generate narration for my video demo using a script I wrote myself. This was for presentation clarity only and does not affect the technical work of the project.
+
 
 
 
