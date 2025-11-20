@@ -99,7 +99,7 @@
 - **Risk 5: Runtime or dependency mismatch**  
   - *Mitigation:* Freeze library versions in requirements.txt and document environment setup in README for reproducibility.
 
-## 📈 Model Results (Week 12)
+##  Model Results (Week 12)
 
 After 100 epochs of training on the A100 GPU:
 
@@ -162,6 +162,18 @@ These examples confirm that the model is not only learning from the data but als
 
 ## DEMO Video
 [ Watch Demo] [https://drive.google.com/file/d/1nDdSeVAPLuR7NwKzr0zhq7bQZaE3PgPh/view?usp=sharing]
+
+---
+
+##  Results
+
+| Metric | Value |
+|--------|--------|
+| mAP50 | **84.9%** |
+| mAP50-95 | **84.9%** |
+| Precision | **75.7%** |
+| Recall | **77.3%** |
+| Inference Time | **~0.8 ms per image** |
 
 
 
