@@ -1,10 +1,29 @@
-﻿# AI Usage Log
-10/29/2025: Used ChatGPT to better convey my meanings to sound more clear and professional.
+﻿## AI Usage Log
+---
+## 10/29/2025
 
-10/29/2025: Used ChatGPT to generate images for power point.
+Used ChatGPT to help rephrase parts of my project proposal to sound clearer and more professional.
 
-11/06/2025: Used ChatGPT to format and structure my initial results. As well as using it to debug a path issue I was having.
+Used ChatGPT’s image generation tool to create a robot illustration for my midterm PowerPoint slides.
+---
+## 11/06/2025
 
-11/17/2025: ChatGPT helped me debug 04_demo.ipynb.
+Used ChatGPT to help format and structure my initial model results for readability.
 
-11/19/2025: Today I worked on the Week 13 demo preparation. I finalized the demo notebook, created the script for my presentation, and prepared the spoken narration for my video demo.I used ChatGPT to help organize my spoken demo script so the sequence (introduction → demo → results → conclusion) followed the required project structure.I used AI to clarify how to explain my technical steps in simple language without changing the meaning of the work I completed myself.I used ElevenLabs (AI voice) to generate a clean narration of the script I wrote. This helps me maintain a clear presentation during recording but does not change the work or results of the project.
+Also used it to help identify and correct a dataset path error that was preventing the model from loading.
+---
+## 11/17/2025
+
+Used ChatGPT to assist with debugging issues in the 04_demo.ipynb notebook.
+
+Specifically received guidance on proper file paths, loading the model, and handling the best.pt file.
+---
+## 11/19/2025
+
+Worked on the Week 13 demo preparation.
+
+Used ChatGPT to help outline and organize my demo script (introduction → model explanation → demo → results → conclusion).
+
+Used ChatGPT to clarify how to explain my technical process in simple, clear language without changing the work I personally completed.
+
+Used ElevenLabs (AI voice) to generate narration for my video demo using a script I wrote myself. This was for presentation clarity only and does not affect the technical work of the project.
