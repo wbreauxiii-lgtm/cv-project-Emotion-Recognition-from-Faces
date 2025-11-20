@@ -18,7 +18,7 @@ Used ChatGPT to assist with debugging issues in the 04_demo.ipynb notebook.
 
 Specifically received guidance on proper file paths, loading the model, and handling the best.pt file.
 ---
-# 11/19/2025
+11/19/2025
 
 Worked on the Week 13 demo preparation.
 
@@ -27,4 +27,5 @@ Used ChatGPT to help outline and organize my demo script (introduction → model
 Used ChatGPT to clarify how to explain my technical process in simple, clear language without changing the work I personally completed.
 
 Used ElevenLabs (AI voice) to generate narration for my video demo using a script I wrote myself. This was for presentation clarity only and does not affect the technical work of the project.
+
 
