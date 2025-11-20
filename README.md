@@ -165,18 +165,6 @@ These examples confirm that the model is not only learning from the data but als
 
 ---
 
-##  Results
-
-| Metric | Value |
-|--------|--------|
-| mAP50 | **84.9%** |
-| mAP50-95 | **84.9%** |
-| Precision | **75.7%** |
-| Recall | **77.3%** |
-| Inference Time | **~0.8 ms per image** |
-
----
-
 ###  Inference Performance
 The model runs extremely fast on GPU:
 
@@ -185,16 +173,6 @@ The model runs extremely fast on GPU:
 - **Post-process:** 0.9 ms  
 - 💨 **Total latency:** ~1.8 ms per image
 
----
-
-##  Example Results
-
-### Correct Predictions
-![Correct 1](results/val_batch0_pred.jpg)
-![Correct 2](results/val_batch1_pred.jpg)
-
-### Failure Case
-![Failure Example](results/val_batch2_pred.jpg)
 
 
 
