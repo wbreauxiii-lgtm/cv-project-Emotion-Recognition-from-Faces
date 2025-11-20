@@ -175,6 +175,28 @@ These examples confirm that the model is not only learning from the data but als
 | Recall | **77.3%** |
 | Inference Time | **~0.8 ms per image** |
 
+---
+
+###  Inference Performance
+The model runs extremely fast on GPU:
+
+- **Preprocess:** 0.1 ms  
+- **Inference:** 0.8 ms  
+- **Post-process:** 0.9 ms  
+- 💨 **Total latency:** ~1.8 ms per image
+
+---
+
+##  Example Results
+
+### Correct Predictions
+![Correct 1](results/val_batch0_pred.jpg)
+![Correct 2](results/val_batch1_pred.jpg)
+
+### Failure Case
+![Failure Example](results/val_batch2_pred.jpg)
+
+
 
 
 
