@@ -7,7 +7,7 @@
 ## Tier 2 Model  
 
 - I chose this project because I am interested in robotics and integrating artificial intelligence into robotics.  
-- Building an emotion recognition model allows me to explore the human-machine connection.  
+- Building an emotion recognition model allows me to explore the human - machine connection.  
 - Having natural interaction and adaptive robots that teach machines to understand human emotion is essential.  
 
 ---
@@ -23,8 +23,8 @@
 ## Solution Overview  
 
 - This project uses a YOLO-based emotion recognition model trained on a Kaggle facial expression dataset.  
-- The model is GPU-accelerated for faster processing and emotion classification.  
-- It can be applied in areas such as customer sentiment analysis and human–AI interaction, where understanding emotions helps machines respond naturally and accurately.  
+- The model is GPU - accelerated for faster processing and emotion classification.  
+- It can be applied in areas such as customer sentiment analysis and human - AI interaction, where understanding emotions helps machines respond naturally and accurately.  
 
 ---
 
@@ -69,7 +69,7 @@
 ## Resources Needed  
 
 - **Compute:** Google Colab Pro NVIDIA A100 GPU (switched from T4 GPU) / Kaggle  
-- **Cost:** $0  
+- **Cost:** $10  
 - **APIs:** No paid APIs  
 
 ---
@@ -195,6 +195,7 @@ The model runs extremely fast on GPU:
 
 ### Failure Case
 ![Failure Example](results/val_batch2_pred.jpg)
+
 
 
 
