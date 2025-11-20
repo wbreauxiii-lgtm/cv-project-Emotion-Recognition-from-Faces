@@ -121,17 +121,17 @@ After 100 epochs of training on the A100 GPU:
 | Sad | 0.798 |
 | Surprise | 0.865 |
 
-##Saved Artifacts  
+## Saved Artifacts  
 - /models/best.py
 - /results/confusion_matrix.png
 - /results/results.png
 
-##Failure Case Notes  
+## Failure Case Notes  
 - Neutral faces are often misclassified as Sad or Contempt  
 - Dim/low-contrast images reduce prediction accuracy  
 - Occlusions (hands on face) can cause incorrect detection
 
-##Improvement Made  
+## Improvement Made  
 - Switched training hardware from T4 to A100 GPU for faster convergence and higher mAP
 
 ### Per-Class Performance
@@ -157,6 +157,11 @@ These examples confirm that the model is not only learning from the data but als
 
 - From the confusion matrix, I can briefly describe which emotions are hardest for the model (for example, if Neutral is often confused with Sad or Contempt).
 - I can also mention if low-light or partially occluded faces seem less accurate.
+
+---
+
+## DEMO Video
+[ Watch Demo] [https://drive.google.com/file/d/1nDdSeVAPLuR7NwKzr0zhq7bQZaE3PgPh/view?usp=drive_link]
 
 
 
