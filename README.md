@@ -161,7 +161,8 @@ These examples confirm that the model is not only learning from the data but als
 ---
 
 ## DEMO Video
-[ Watch Demo] [https://drive.google.com/file/d/1nDdSeVAPLuR7NwKzr0zhq7bQZaE3PgPh/view?usp=drive_link]
+[ Watch Demo] [https://drive.google.com/file/d/1nDdSeVAPLuR7NwKzr0zhq7bQZaE3PgPh/view?usp=sharing]
+
 
 
 
